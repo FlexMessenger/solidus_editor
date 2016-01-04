@@ -1,9 +1,11 @@
-# Spree Editor
+# Solidus Editor (Originally Spree Editor)
 
 [![Build Status](https://travis-ci.org/spree-contrib/spree_editor.svg?branch=master)](https://travis-ci.org/spree-contrib/spree_editor)
 [![Code Climate](https://codeclimate.com/github/spree-contrib/spree_editor/badges/gpa.svg)](https://codeclimate.com/github/spree-contrib/spree_editor)
 
-This extension provides an inline rich-text editor for Spree. It implements different types of editors:
+Originally it's for Spree, I modified the gem dependency to make it compitible with Solidus 1.1.1. Please use 2-4-stable branch with Solidus 1.1.1.
+
+This extension provides an inline rich-text editor for Solidus 1.1.1. It implements different types of editors:
 
 - [CKEditor][1]
 - [TinyMCE][2]
@@ -18,7 +20,7 @@ If you have issues, please check their issues trackers first.
 
 1. Add the Spree Editor gem to your `Gemfile`:
   ```ruby
-  gem 'spree_editor', github: 'spree-contrib/spree_editor', branch: 'master'
+  gem 'spree_editor', github: 'FlexMessenger/spree_editor', branch: '2-4-stable'
   ```
 
 2. Run:
